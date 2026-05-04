@@ -8,19 +8,26 @@ const persona = {
          return "Hola, soy Lucía Macellaro!"},
     decirEdad: function() {
         return "tengo " + this.edad + " años"
-    }
+    },
+    nombreCompleto: function() {
+        return this.nombre + " "+ this.apellido
+    },
+    esMayorDeEdad: function() {
+        return this.edad >=18
+    },
 }
 
-const saludo = "Hola, soy " + persona.nombre + " " + persona.apellido + "!"
+// const saludo = "Hola, soy " + persona.nombre + " " + persona.apellido + "!"
 
 
-console.log(persona)
-console.log(persona.nombre)
+// console.log(persona)
+// console.log(persona.nombre)
 
-// console.log(saludo)
- console.log(persona.saludar())
- console.log (persona.decirEdad())
- console.log(persona.nacionalidad[0])
-  console.log(persona.nacionalidad)
+// // console.log(saludo)
+//  console.log(persona.saludar())
+//  console.log (persona.decirEdad())
+//  console.log(persona.nacionalidad[0])
+//   console.log(persona.nacionalidad)
 
-persona.saludar()
+console.log(persona.esMayorDeEdad())
+console.log(persona.nombreCompleto())
