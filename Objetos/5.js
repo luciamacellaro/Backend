@@ -20,11 +20,16 @@ const peliculas = [
 ]
 peliculas.push ({titulo: "Piratas del caribe", anio: 2008, puntaje:  8}) // d) Agregá una nueva película al final del array con push.
 
-console.log(peliculas[0]) // a) Imprimí el título de la primera película.
+console.log(peliculas[0].titulo) // a) Imprimí el título de la primera película.
 
-console.log((peliculas[3].puntaje).length)// b) Imprimí el puntaje de la última película usando length.
+console.log(peliculas[peliculas.length-1].puntaje)   // b) Imprimí el puntaje de la última película usando length.
 
 peliculas[0].puntaje = 9.0 // c) Cambiá el puntaje de "Toy Story" a 9.0.
 
 console.log(peliculas[0].puntaje)
-console.log(peliculas)
+
+console.log(peliculas[peliculas.length-1])
+// console.log(peliculas)
+
+
+// console.log(peliculas[peliculas.length-1].puntaje)
