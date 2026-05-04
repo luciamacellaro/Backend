@@ -17,16 +17,16 @@ const persona = {
     },
 }
 
-// const saludo = "Hola, soy " + persona.nombre + " " + persona.apellido + "!"
+const saludo = "Hola, soy " + persona.nombre + " " + persona.apellido + "!"
 
 
 // console.log(persona)
 // console.log(persona.nombre)
 
-// // console.log(saludo)
+console.log(saludo)
 //  console.log(persona.saludar())
 //  console.log (persona.decirEdad())
-//  console.log(persona.nacionalidad[0])
+ console.log(persona.nacionalidad[0])
 //   console.log(persona.nacionalidad)
 
 console.log(persona.esMayorDeEdad())
